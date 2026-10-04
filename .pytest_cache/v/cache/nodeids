@@ -1,0 +1,8 @@
+[
+  "tests/tests/test_calculations.py::test_add",
+  "tests/tests/test_calculations.py::test_add[12-4-16]",
+  "tests/tests/test_calculations.py::test_add[3-2-5]",
+  "tests/tests/test_calculations.py::test_add[7-1-8]",
+  "tests/tests/test_users.py::test_create_user",
+  "tests/tests/test_users.py::test_root"
+]

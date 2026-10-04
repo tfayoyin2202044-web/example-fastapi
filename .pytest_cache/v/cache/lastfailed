@@ -1,0 +1,4 @@
+{
+  "tests/tests/test_users.py::test_create_user": true,
+  "tests/tests/test_users.py": true
+}
