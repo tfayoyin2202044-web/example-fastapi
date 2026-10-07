@@ -1,8 +1,23 @@
-# pytest cache directory #
+# FastAPI Login & Posts Viewer
 
-This directory contains data from the pytest's cache plugin,
-which provides the `--lf` and `--ff` options, as well as the `cache` fixture.
+A vanilla JavaScript frontend that connects to a FastAPI backend with OAuth2 authentication.
 
-**Do not** commit this to version control.
+## Features
+- Login form authenticating against a FastAPI backend
+- JWT token stored and used for authenticated requests
+- Fetches and displays the logged-in user's posts
 
-See [the docs](https://docs.pytest.org/en/stable/how-to/cache.html) for more information.
+## Tech Stack
+- Frontend: HTML, CSS, JavaScript (Fetch API, Async/Await)
+- Backend: FastAPI, OAuth2 with Password Bearer, Uvicorn, SQLite/SQLAlchemy
+
+## Screenshot
+![Login and posts](screenshot.png)
+
+## Local Setup
+
+1. Start the Backend:
+uvicorn APp.me:app --reload
+
+2. Start the Frontend:
+Run Live Server on index.html (serves at http://127.0.0.1:5500)
