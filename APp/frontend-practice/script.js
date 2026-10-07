@@ -31,7 +31,7 @@ function displayData(data) {
     resultsDiv.appendChild(card);
 }
 let token = localStorage.getItem("token");
-const statusEl = document.getElementById("status");n
+const statusEl = document.getElementById("status");
 document.getElementById("loginBtn").addEventListener("click", login);
 document.getElementById("postsBtn").addEventListener("click", loadPosts);
 
